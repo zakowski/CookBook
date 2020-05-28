@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Notepad">
+
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/NoteTitle"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/transparent"
+            android:textColorHint="@color/overlayBack2"
+            android:hint="Podaj tytuł..."
+            android:padding="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:alpha=".5"
+            android:background="@android:color/black" />
+
+        <EditText
+            android:id="@+id/NoteContent"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="top"
+            android:textColorHint="@color/overlayBack2"
+            android:hint="Podziel się swoim przepisem, my zajmiemy się resztą."
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSendNote"
+            android:textColor="@android:color/white"
+            android:text="Wyślij swój przepis"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:shadowColor="@android:color/black"
+            app:shadowHeight="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

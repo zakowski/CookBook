@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_menu">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="@string/menu" />
+
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Dodaj własne" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Ulubione" />
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Wyloguj" />
+        </menu>
+    </item>
+
+
+</menu>

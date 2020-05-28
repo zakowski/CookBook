@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="4dp"
+    app:cardElevation="5dp">
+
+
+    //Przewijana lista dan
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ImageFoods"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+
+
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:background="@color/overlayBack1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/FoodsName"
+                android:text="Nazwa Dania"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:gravity="center"
+                android:layout_weight="9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/ImageFav"
+                    android:src="@drawable/ic_favorite_border_black_24dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tint="@android:color/white">
+                </ImageView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

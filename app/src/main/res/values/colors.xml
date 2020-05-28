@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#242323</color>
+    <color name="colorPrimaryDark">#060706</color>
+    <color name="colorAccent">#2DA0CC</color>
+
+    <color name="btnAppLog">#39796b</color>
+    <color name="btnAppLogActive">#A9d440</color>
+    
+    <color name="overlayBack">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <color name="overlayBack1">#4f0e0d0e</color>
+    <color name="overlayBack2">#7CEBF3F3</color>
+
+</resources>
+
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+<!--<color name="colorPrimary">#004d40</color>-->
+<!--<color name="colorPrimaryDark">#00251a</color>-->
+<!--<color name="colorAccent">#39796b</color>-->
+

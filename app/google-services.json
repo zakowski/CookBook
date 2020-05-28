@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "1043473650634",
+    "firebase_url": "https://androidcookapp.firebaseio.com",
+    "project_id": "androidcookapp",
+    "storage_bucket": "androidcookapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043473650634:android:3ba040d0368e08ef0cf533",
+        "android_client_info": {
+          "package_name": "com.cookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043473650634-5j4bgach2qpbppscr2h8smsjmlruc0c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookapp",
+            "certificate_hash": "1f45fe2c4a7f5c6f19ab8c53422f43e2d882e56a"
+          }
+        },
+        {
+          "client_id": "1043473650634-d9jid05psjas1orc9gp13um3dhpqngb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookapp",
+            "certificate_hash": "01c1572503ab0dc3217cf9e698496d77d77b1676"
+          }
+        },
+        {
+          "client_id": "1043473650634-1gfks6n85inehco7vt7jtk0s002nrecs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "place on api_key": [
+        {
+          "current_key": "----"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043473650634-1gfks6n85inehco7vt7jtk0s002nrecs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043473650634:android:a08944fd41b046a70cf533",
+        "android_client_info": {
+          "package_name": "com.example.appcook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043473650634-rtsq6nkijci60a4mqig2emata0ii72ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appcook",
+            "certificate_hash": "01c1572503ab0dc3217cf9e698496d77d77b1676"
+          }
+        },
+        {
+          "client_id": "1043473650634-1gfks6n85inehco7vt7jtk0s002nrecs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "place on api_key": [
+        {
+          "current_key": "----"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043473650634-1gfks6n85inehco7vt7jtk0s002nrecs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
